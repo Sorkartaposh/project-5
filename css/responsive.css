@@ -1,0 +1,307 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .menu-area ul li a  {
+        padding: 10px 4px;
+    }
+    .key-item {
+        max-width: 95%;
+    }
+    .number-item img {
+        top: -35%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.menu-area {
+    display: none;
+}
+.menu-area ul li {
+   display: block;
+   margin-bottom: 5px;
+   text-align: center;
+}
+.nav-btn {
+    display: none;
+}
+.order-btn {
+    display: block;
+}
+.hamburger {
+    display: block;
+}
+.subject-list-area {
+    display: none;
+}
+.subject-list-mobile {
+    display: block;
+}
+.footer-item ul {
+    margin-left: 0;
+    margin-top: 20px;
+ }
+ .number-item img  {
+    display: none;
+ }
+ .unsure-item h2  {
+    font-size: 30px;
+    top: 25%;
+}
+.key-header h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.subject-list-mobile h2 {
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+    .menu-area {
+        display: none;
+    }
+    .menu-area ul li {
+       display: block;
+       margin-bottom: 5px;
+       text-align: center;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .order-btn {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+    }
+    .subject-list-area {
+        display: none;
+
+    }
+    .subject-list-mobile {
+        display: block;
+        padding-top: 350px;
+    }
+    .unsure-mobile-item {
+        display:block ;
+     }
+     .unsure-item {
+        display: none;
+     }
+     .footer-item ul {
+        margin-left: 0;
+        margin-top: 20px;
+     }
+
+     .number-header h1 {
+        font-size:40px;
+     }
+     .number-header p {
+        font-size: 20px;
+     }
+     .number-item h2 {
+        font-size: 46px;
+     }
+     .number-item p{
+        font-size: 20px;
+     }
+     .number-item img {
+        display: none;
+     }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .menu-area {
+        display: none;
+    }
+    .menu-area ul li {
+       display: block;
+       margin-bottom: 5px;
+       text-align: center;
+
+    }
+    .nav-btn {
+        display: none;
+    }
+    .order-btn {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+    }
+    .subject-list-area {
+        display: none;
+
+    }
+    .subject-list-mobile {
+        display: block;
+        padding-top: 350px;
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    .subject-list-mobile form {
+        width: 100%;
+    }
+    .subject-list-mobile select {
+       max-width: 70%;
+    }
+    .subject-list-mobile button {
+        width: 70%;
+        padding: 0;
+    }
+    .subject-list-mobile h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .order-btn {
+        display: none;
+    }
+    .unsure-box-mobile {
+        left: 25%;
+    }
+    .unsure-mobile-item {
+        display:block ;
+     }
+     .unsure-item {
+        display: none;
+     }
+     .footer-item ul {
+        margin-left: 0;
+        margin-top: 20px;
+     }
+
+
+
+     .number-header h1 {
+        font-size:30px;
+        margin-bottom: 0;
+     }
+     .number-header p {
+        font-size: 17px;
+        margin-top: 0;
+     }
+     .number-item h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+     }
+     .number-item p{
+        font-size: 18px;
+        margin-top: 0;
+     }
+     .number-item img {
+        display: none;
+     }
+    .key-item {
+        width: 100%;
+    }
+    .key-header h2 {
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
